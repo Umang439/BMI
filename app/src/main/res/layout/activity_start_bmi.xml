@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Start_bmi"
+    android:background="@drawable/img1">
+
+    <RadioButton
+        android:id="@+id/rg1"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="Male"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="60dp"/>
+<!--        android:text_color="@values/black"/>-->
+    <RadioButton
+        android:id="@+id/rg2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="Female"
+        android:layout_toRightOf="@+id/rg1"
+        android:layout_marginTop="120dp"/>
+<!--        android:text_color="@values/black"-->
+        android:layout_marginLeft="50dp"/>
+
+    <Spinner
+        android:id="@+id/sp1"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/rg1"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp" />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/sp1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="180dp"
+        android:text="Creat Profile"/>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/sp1"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/btn1"
+        android:layout_marginLeft="20dp"
+        android:text="Skip"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="continue"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="200dp"/>
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@+id/btn3"
+        android:text="Back"
+        android:layout_marginTop="650dp"/>
+</RelativeLayout>

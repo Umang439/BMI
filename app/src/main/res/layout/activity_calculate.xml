@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculate"
+    android:background="@drawable/img1">
+    <ImageView
+        android:id="@+id/calimg1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="200dp"/>
+    <TextView
+        android:id="@+id/caltv1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/calimg1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="Enter your weight"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/caltv2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/caltv1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="Enter your hight"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/calet1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/calimg1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="250dp"/>
+    <EditText
+        android:id="@+id/calet2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/calet1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="250dp"/>
+    <Button
+        android:id="@+id/calbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Calculate"
+        android:textSize="25dp"
+        android:layout_below="@+id/calet2"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="200dp"/>
+
+
+</RelativeLayout>

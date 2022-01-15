@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result"
+    android:background="@drawable/img1">
+
+
+    <ImageView
+        android:id="@+id/reimg1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="200dp" />
+    <TextView
+        android:id="@+id/retv1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/reimg1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="First Name"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/retv2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/retv1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="Last Name"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/retv3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/retv2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="Mail Id"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/retv4"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/retv3"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="MOB"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/reet1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/reimg1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="175dp"/>
+    <EditText
+        android:id="@+id/reet2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/reet1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="175dp"/>
+    <EditText
+        android:id="@+id/reet3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/reet2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="175dp"/>
+    <EditText
+        android:id="@+id/reet4"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/reet3"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="175dp"/>
+    <TextView
+        android:id="@+id/retv5"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/retv4"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="Your weight"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/retv6"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/retv5"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="Your hight"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/reet5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/reet4"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="30dp" />
+    <EditText
+        android:id="@+id/reet6"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/reet5"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="275dp"/>
+<!--    <Button-->
+<!--        android:id="@+id/btnc1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="Creat"-->
+<!--        android:textSize="25dp"-->
+<!--        android:layout_below="@+id/tv4"-->
+<!--        android:layout_marginTop="70dp"-->
+<!--        android:layout_marginLeft="150dp"/>-->
+
+
+</RelativeLayout>
